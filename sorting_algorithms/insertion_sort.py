@@ -95,7 +95,7 @@ def insertion_sort_layout():
             ),
             
             # Interval for Animation (slowed down to 1500ms)
-            dcc.Interval(id="interval", interval=1500, n_intervals=0, disabled=True),
+            dcc.Interval(id="interval", interval=1700, n_intervals=0, disabled=True),
             
             dcc.Store(id="array-data-store")  
         ],
